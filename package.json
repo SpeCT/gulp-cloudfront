@@ -4,26 +4,25 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "glob": "~3.2.9",
-    "gulp": "~3.5.5",
-    "gulp-jshint": "~1.5.1",
-    "gulp-mocha": "~0.4.1",
-    "gulp-util": "~2.2.0",
-    "mocha": "~1.13.0",
-    "should": "*",
-    "event-stream": "~3.1.0",
-    "through2": "~0.4.0",
-    "aws-sdk": "~2.0.0-rc11",
-    "q": "~1.0.1"
+    "aws-sdk": "^2.0.31",
+    "gulp": "^3.5.6",
+    "gulp-util": "^2.2.20",
+    "q": "^1.0.1",
+    "through2": "^0.4.2"
   },
   "devDependencies": {
-    "gulp": "~3.5.5",
-    "mocha": "~1.13.0",
-    "should": "*",
-    "sinon": "~1.10.2"
+    "event-stream": "^3.3.2",
+    "glob": "^6.0.4",
+    "gulp": "^3.5.6",
+    "gulp-jshint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "jshint": "^2.9.1",
+    "mocha": "^2.4.4",
+    "should": "^8.2.1",
+    "sinon": "^1.17.3"
   },
   "scripts": {
-    "test": "mocha test.js"
+    "test": "node_modules/.bin/mocha test.js"
   },
   "repository": {
     "type": "git",
